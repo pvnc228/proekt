@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847222555669",
+    "project_id": "push-upp",
+    "storage_bucket": "push-upp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847222555669:android:c4ab8a173c961d28623a1c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf7Ymz4u5P4Oahcf9DpULU4Ku0OW7bNbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
