@@ -1,0 +1,18 @@
+.project-button {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.project-button img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.project-button span {
+    font-weight: bold;
+}

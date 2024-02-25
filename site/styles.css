@@ -1,0 +1,57 @@
+.calculator {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+#display {
+    width: 95%; /* Ширина строки вывода равна 100% ширины родительского контейнера */
+    padding: 10px; /* Внутренний отступ */
+    font-size: 24px; /* Размер шрифта */
+    border: 1px solid #ccc; /* Границы */
+    border-radius: 5px; /* Закругленные углы */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Задаем цвет фона кнопки */
+    color: white; /* Задаем цвет текста на кнопке */
+    border: none; /* Убираем границу кнопки */
+    border-radius: 5px; /* Закругляем углы кнопки */
+}
+
+/* Меняем цвет кнопки при наведении */
+
+
+.lower {
+    padding: 10px; /* Внутренний отступ */
+    font-size: 18px; /* Размер шрифта */
+    width: 100%; /* Ширина кнопки, половина от родительского контейнера */
+    background-color: #4CAF50; /* Цвет фона кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: none; /* Убираем границу кнопки */
+    border-radius: 5px; /* Закругляем углы кнопки */
+}
+
+/* Меняем цвет кнопки при наведении */
+
+.lower-container {
+    display: flex; /* Располагаем элементы внутри контейнера в строку */
+    flex-direction: column; /* Элементы будут располагаться в столбик */
+}
+
+.ops {
+    display: flex; /* Располагаем элементы внутри контейнера в строку */
+    flex-direction: column; /* Элементы будут располагаться в столбик */
+}
+.xuy {
+    background-color: white;
+}
