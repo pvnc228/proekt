@@ -1,0 +1,7 @@
+#@OOP_PROJECT.Server_HostAddress = 
+#:5000
+
+#GET {{OOP_PROJECT.Server_HostAddress}}/weatherforecast/
+#Accept: application/json
+
+###

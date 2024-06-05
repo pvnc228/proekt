@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_PROJECT.Server", "OOP_PROJECT.Server\OOP_PROJECT.Server.csproj", "{9969C04E-4614-43B3-9EC7-CB365E66FAF7}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "oop_project.client", "oop_project.client\oop_project.client.esproj", "{EC588757-23F9-417D-A70A-8327910149A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_PROJECT.Aspire", "OOP_PROJECT.Aspire\OOP_PROJECT.Aspire.csproj", "{1746ECED-538E-4DA3-B036-E0958AC4F744}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizationService", "AuthorizationService\AuthorizationService.csproj", "{29A080BD-4BE5-4BD0-91DB-D36D85E62366}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesService", "NotesService\NotesService.csproj", "{FC581FB7-A210-4FFF-808C-E554F68C865C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordManagerService", "PasswordManagerService\PasswordManagerService.csproj", "{59D6569B-D6D1-406A-981D-1C8EA5316BFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9969C04E-4614-43B3-9EC7-CB365E66FAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9969C04E-4614-43B3-9EC7-CB365E66FAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9969C04E-4614-43B3-9EC7-CB365E66FAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9969C04E-4614-43B3-9EC7-CB365E66FAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC588757-23F9-417D-A70A-8327910149A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC588757-23F9-417D-A70A-8327910149A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC588757-23F9-417D-A70A-8327910149A9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC588757-23F9-417D-A70A-8327910149A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC588757-23F9-417D-A70A-8327910149A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC588757-23F9-417D-A70A-8327910149A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1746ECED-538E-4DA3-B036-E0958AC4F744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1746ECED-538E-4DA3-B036-E0958AC4F744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1746ECED-538E-4DA3-B036-E0958AC4F744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1746ECED-538E-4DA3-B036-E0958AC4F744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A080BD-4BE5-4BD0-91DB-D36D85E62366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A080BD-4BE5-4BD0-91DB-D36D85E62366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A080BD-4BE5-4BD0-91DB-D36D85E62366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A080BD-4BE5-4BD0-91DB-D36D85E62366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC581FB7-A210-4FFF-808C-E554F68C865C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC581FB7-A210-4FFF-808C-E554F68C865C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC581FB7-A210-4FFF-808C-E554F68C865C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC581FB7-A210-4FFF-808C-E554F68C865C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D6569B-D6D1-406A-981D-1C8EA5316BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D6569B-D6D1-406A-981D-1C8EA5316BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D6569B-D6D1-406A-981D-1C8EA5316BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D6569B-D6D1-406A-981D-1C8EA5316BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC171B2-BC01-48E0-9A0A-674ABDB11FD7}
+	EndGlobalSection
+EndGlobal

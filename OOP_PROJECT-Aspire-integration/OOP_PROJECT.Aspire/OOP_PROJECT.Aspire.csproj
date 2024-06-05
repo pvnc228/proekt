@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>4ee963cc-0752-43e4-b843-970d6aad71e2</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.1" />
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="8.0.1" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="8.0.1" />
+    <PackageReference Include="Aspire.Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthorizationService\AuthorizationService.csproj" />
+    <ProjectReference Include="..\NotesService\NotesService.csproj" />
+    <ProjectReference Include="..\oop_project.client\oop_project.client.esproj" />
+    <ProjectReference Include="..\OOP_PROJECT.Server\OOP_PROJECT.Server.csproj" />
+    <ProjectReference Include="..\PasswordManagerService\PasswordManagerService.csproj" />
+  </ItemGroup>
+
+</Project>

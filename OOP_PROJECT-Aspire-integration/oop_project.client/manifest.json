@@ -1,0 +1,15 @@
+{
+  "manifest": {
+    "name": "My Awesome App",
+    "short_name": "AwesomeApp",
+    "description": "My Awesome App description",
+    "theme_color": "#66ccff",
+    "icons": [
+      {
+        "src": "/logo.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      }
+    ]
+  }
+}

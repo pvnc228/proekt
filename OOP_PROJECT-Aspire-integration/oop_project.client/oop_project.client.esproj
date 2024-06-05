@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.271090-alpha">
+  <PropertyGroup>
+    <StartupCommand Condition=" '$(Configuration)' == 'Debug' ">powershell -File StartDebugInterface.ps1</StartupCommand>
+    <JavaScriptTestRoot>./</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+	  <ShouldRunBuildScript Condition=" '$(Configuration)' == 'Debug' ">false</ShouldRunBuildScript>
+    <ShouldRunBuildScript Condition=" '$(Configuration)' == 'Release' ">true</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+    <BuildCommand Condition=" '$(Configuration)' == 'Release' ">powershell -File BuildDockerContainer.ps1</BuildCommand>
+    <CleanCommand Condition=" '$(Configuration)' == 'Release' ">powershell -File StopDockerContainer.ps1</CleanCommand>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="BuildDockerContainer - Копировать.ps1" />
+  </ItemGroup>
+</Project>
